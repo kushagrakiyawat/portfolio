@@ -1,0 +1,116 @@
+.main{
+    height:100vh;
+    background: url('banner1.jpg');
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.hero_title{
+    font-size: 4.5em;
+}
+.hero_title2{
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.heading h1 {
+    font-size: 36px;
+}
+.imageAboutPage {
+    width: 100%;
+}
+
+#about {
+    padding: 100px 0;
+}
+.about{
+    display: flex;
+}
+
+.about img{
+    align-self: flex-start;
+}
+.profp{
+    height: 10rem;
+    width: 9rem;
+    
+}
+
+#projects {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-img-top {
+    height: 10rem;
+    width: 10rem;
+}
+
+#contact {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #333;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3498db;
+}
+.links{
+    display: flex;
+}
+.connectlink{
+    list-style: none;
+    padding: 0.25rem 0.75rem;
+}
+i{
+    font-size: 2.0rem;
+}
+h5{
+    font-size: 23px;
+}
+
+
+@media (max-width: 768px) {
+    .heading h1 {
+        font-size: 28px;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
